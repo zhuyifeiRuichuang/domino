@@ -8,7 +8,7 @@ frontend:
   enabled: true
   image: ghcr.io/tauffer-consulting/domino-frontend
   tag: latest
-  apiUrl: http://localhost/api
+  apiUrl: http://domino-rest-service/api
 
 # REST service
 rest:
